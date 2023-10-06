@@ -715,7 +715,7 @@ in dom0</xhtml:div>
       </switch>
     </g>
     <g
-       transform="translate(360.5,98.5)"
+       transform="translate(360.5,68.5)"
        id="g174">
       <switch
          id="switch172">
@@ -728,11 +728,15 @@ in dom0</xhtml:div>
           <xhtml:div
              style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 120px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
             <xhtml:div
-               style="display:inline-block;text-align:inherit;text-decoration:inherit;">u2f.Register<xhtml:br />
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">ctap.GetInfo<xhtml:br />
+
+ctap.ClientPin<xhtml:br />
+
+u2f.Register<xhtml:br />
 
 u2f.Authenticate+KEY<xhtml:br />
 
-(raw APDUs)</xhtml:div>
+(raw CBOR/APDU)</xhtml:div>
           </xhtml:div>
         </foreignObject>
         <text
